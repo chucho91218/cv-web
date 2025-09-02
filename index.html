@@ -1,134 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luque Agustín - Frontend Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luque Agustín - Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Devicon para íconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <h1 class="name">Luque Agustín</h1>
-            <p class="role">Frontend Developer</p>
-        </header>
+  <!-- NAV -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#education">Educación</a></li>
+      <li><a href="#languages">Idiomas</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
 
-        <!-- About Me Section -->
-        <section class="section">
-            <h2 class="section-title">Sobre mí</h2>
-            <p class="about-text">
-                Desarrollador de software en formación, especializado en frontend con React, JavaScript, HTML y CSS.
-                Experiencia en la creación de interfaces modernas, trabajo colaborativo y buenas prácticas de programación.
-                Actualmente participo en el desarrollo de una aplicación web de educación financiera, fortaleciendo mis
-                habilidades técnicas, de análisis y resolución de problemas.
-            </p>
-        </section>
+  <div class="container">
+    <!-- HEADER -->
+    <header class="header">
+      <h1 class="name">Luque <span>Agustín</span></h1>
+      <p class="role">Frontend Developer</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/agustinluquedev/" target="_blank" class="social-link">
+          <i class="devicon-linkedin-plain colored"></i>
+        </a>
+        <a href="https://github.com/chucho91218" target="_blank" class="social-link">
+          <i class="devicon-github-original"></i>
+        </a>
+      </div>
+    </header>
 
-        <!-- Contact Section -->
-        <section class="section">
-            <h2 class="section-title">Contacto</h2>
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <span class="contact-label">Teléfono:</span>
-                    <span class="contact-value">3573-690769</span>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-label">Email:</span>
-                    <span class="contact-value">luqueagustindev@gmail.com</span>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-label">LinkedIn:</span>
-                    <a href="https://www.linkedin.com/in/agustinluquedev/" target="_blank" class="contact-link">
-                        linkedin.com/in/agustinluquedev
-                    </a>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-label">GitHub:</span>
-                    <a href="https://github.com/chucho91218" target="_blank" class="contact-link">github.com/</a>
-                </div>
-            </div>
-        </section>
+    <!-- SOBRE MÍ -->
+    <section class="section" id="about">
+      <h2 class="section-title">Sobre mí</h2>
+      <p class="about-text">
+        Soy <strong>Frontend Developer</strong>, apasionado por crear interfaces modernas, usables y accesibles. 
+        Me considero una persona proactiva, con capacidad de adaptación y gusto por los desafíos que implican resolver problemas reales mediante la tecnología.
+      </p>
+      <p class="about-text">
+        A lo largo de mi formación desarrollé una base sólida en fundamentos de programación, bases de datos y metodologías de trabajo en equipo. 
+        Disfruto especialmente el proceso de transformar una idea en un producto digital claro y funcional.
+      </p>
+      <p class="about-text">
+        Actualmente curso el <strong>último año de la Tecnicatura en Desarrollo de Software</strong>. 
+        Mi objetivo es crecer como desarrollador fullstack, aportando soluciones escalables y de calidad, y seguir fortaleciendo mis habilidades de comunicación y colaboración en equipos multidisciplinarios.
+      </p>
+    </section>
 
-        <!-- Work Experience Section -->
-        <section class="section">
-            <h2 class="section-title">Experiencia Laboral</h2>
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3 class="company">Ramos Generales Taborda</h3>
-                    <span class="period">2024 - Presente</span>
-                </div>
-                <p class="position">Atención al Cliente</p>
-                <p class="description">
-                    Gestión de atención al público, manejo de caja y reposición de productos.
-                    Organización y control del stock, asegurando la disponibilidad de mercadería.
-                    Desarrollo de habilidades interpersonales, comunicación efectiva y resolución de problemas en tiempo real.
-                </p>
-            </div>
-        </section>
+    <!-- HABILIDADES -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="skills-grid">
+        <i class="devicon-react-original colored" title="React"></i>
+        <i class="devicon-html5-plain colored" title="HTML5"></i>
+        <i class="devicon-sass-original colored" title="SCSS"></i>
+        <i class="devicon-mysql-original colored" title="MySQL"></i>
+        <i class="devicon-laravel-plain colored" title="Laravel"></i>
+        <i class="devicon-github-original" title="GitHub"></i>
+        <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+        <i class="devicon-postman-plain colored" title="Postman"></i>
+      </div>
+    </section>
 
-        <!-- Projects Section -->
-        <section class="section">
-            <h2 class="section-title">Proyectos</h2>
-            <div class="project-item">
-                <h3 class="project-title">Sistema de gestión de inventario</h3>
-                <p class="project-description">
-                    Desarrollo de interfaz de usuario con React y conexión a backend con MySQL para control de stock
-                    en una fábrica de pastas.
-                </p>
-            </div>
-            <div class="project-item">
-                <h3 class="project-title">Aplicación web de educación financiera</h3>
-                <p class="project-description">
-                    Plataforma de aprendizaje gamificado con React, Tailwind CSS y API en Laravel.
-                    Incluye cursos, lecciones y ejercicios con seguimiento de progreso.
-                </p>
-            </div>
-            <div class="project-item">
-                <h3 class="project-title">Sitios web responsivos</h3>
-                <p class="project-description">
-                    Creación de sitios aplicando buenas prácticas de diseño y accesibilidad,
-                    optimizados para móviles y con enfoque en experiencia de usuario.
-                </p>
-            </div>
-        </section>
+    <!-- PROYECTOS -->
+    <section class="section" id="projects">
+      <h2 class="section-title">Proyectos</h2>
+      <div class="projects-grid">
 
-        <!-- Education Section -->
-        <section class="section">
-            <h2 class="section-title">Educación</h2>
-            <div class="education-item">
-                <div class="education-header">
-                    <h3 class="institution">Instituto Superior Villa del Rosario</h3>
-                    <span class="period">2023 - Actualidad</span>
-                </div>
-                <p class="degree">Tecnicatura en Desarrollo de Software</p>
-            </div>
-        </section>
+        <div class="project-card">
+          <h3 class="project-title">Sistema de gestión de inventario</h3>
+          <p class="project-description">
+            Desarrollo de una aplicación web para el control de stock y productos. 
+            El sistema permite registrar artículos, organizar categorías, actualizar cantidades en tiempo real y generar reportes de inventario. 
+            Su implementación contribuyó a mejorar la organización del stock, reducir errores manuales y optimizar los tiempos de reposición.
+          </p>
+        </div>
 
-        <!-- Languages Section -->
-        <section class="section">
-            <h2 class="section-title">Idiomas</h2>
-            <div class="languages-grid">
-                <div class="language-item">
-                    <span class="language">Español</span>
-                    <span class="level">Nativo</span>
-                </div>
-                <div class="language-item">
-                    <span class="language">Inglés</span>
-                    <span class="level">B1 (Intermedio)</span>
-                </div>
-            </div>
-        </section>
+        <div class="project-card">
+          <h3 class="project-title">Finance Game</h3>
+          <p class="project-description">
+            Desarrollo de una aplicación web educativa con enfoque en finanzas personales. 
+            La plataforma ofrece cursos, lecciones y ejercicios interactivos que permiten a los usuarios aprender de forma dinámica y entretenida. 
+            Incorpora elementos de gamificación como progreso, logros y recompensas para motivar la continuidad en el aprendizaje.
+          </p>
+        </div>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; 2025 Luque Agustín</p>
-        </footer>
+        <div class="project-card">
+          <h3 class="project-title">Sistema de turnos para barbería</h3>
+          <p class="project-description">
+            Diseño y desarrollo de una aplicación web para la gestión de turnos en una barbería. 
+            El sistema permite a los clientes reservar horarios de manera sencilla y a los administradores organizar la disponibilidad del personal. 
+            Incluye funcionalidades de registro de usuarios, historial de citas y notificaciones, lo que contribuye a optimizar la atención y mejorar la experiencia del cliente.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">Sitios web responsivos</h3>
+          <p class="project-description">
+            Desarrollo de sitios web aplicando buenas prácticas de diseño, accesibilidad y optimización para mejorar la experiencia del usuario. 
+            El resultado fueron interfaces claras, modernas y funcionales, pensadas para brindar una navegación fluida y agradable.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCACIÓN -->
+    <section class="section" id="education">
+      <h2 class="section-title">Educación</h2>
+      <div class="education-item">
+        <div class="education-header">
+          <h3 class="institution">Instituto Superior Villa del Rosario</h3>
+          <span class="period">2023 - Actualidad</span>
+        </div>
+        <p class="degree">Tecnicatura en Desarrollo de Software (Último año)</p>
+      </div>
+    </section>
+
+    <!-- IDIOMAS -->
+    <section class="section" id="languages">
+      <h2 class="section-title">Idiomas</h2>
+      <div class="languages-grid">
+        <div class="language-item">
+          <span class="language">Español</span>
+          <span class="level">Nativo</span>
+        </div>
+        <div class="language-item">
+          <span class="language">Inglés</span>
+          <span class="level">B1 (Intermedio)</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER / CONTACTO -->
+  <footer class="footer" id="contact">
+    <h2 class="section-title">Contacto</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <span class="contact-label">Teléfono:</span>
+        <span class="contact-value">3573-690769</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Email:</span>
+        <span class="contact-value">luqueagustindev@gmail.com</span>
+      </div>
     </div>
+    <p>&copy; 2025 Luque Agustín</p>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
